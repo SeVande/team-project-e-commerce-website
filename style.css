@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color: rgb(255, 255, 255)
+
+}
+
 main{
     padding: 1.25rem;
 }
@@ -92,23 +97,21 @@ span .star{
     color: red;
 }
 
-.horizontal-text p{
+.horizontal-text{
  font-weight: 400;
  font-size: 16px;
  line-height: 19.2px;
- display: flex;
- flex-direction: row;
 }
 
-.horizontal-text p:before,
-.horizontal-text p:after {
-    content: "";
-    flex: 1 1;
-    border-bottom: 2px solid #000;
-    margin: auto;
-    }
+.hr1{
+    position: absolute;
+    left: 0;
+}
 
-
+.hr2{
+    position: absolute;
+    right: 0;
+}
 
 .icons{
     display: flex;
